@@ -27,7 +27,7 @@ body {
 
 .card {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   background-color: var(--Dark-desaturated-blue);
   border-radius: 10px;
   overflow: hidden;
@@ -81,9 +81,9 @@ body {
   top: 0;
   left: 0;
   position: absolute;
-  background-color: hsl(277deg 72% 45%);
+  background-color: var(--Soft-violet);
   z-index: 1;
-  opacity: 0.6;
+  mix-blend-mode: multiply;
 }
 
 .image .desktop {
